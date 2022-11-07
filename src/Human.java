@@ -15,8 +15,7 @@ public class Human {
     }
 
     public int getDateOfBirth() {
-        int dateOfBirth = LocalDate.now().getYear() - age;
-        return dateOfBirth;
+        return LocalDate.now().getYear() - age;
     }
 
     @Override
